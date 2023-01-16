@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;900&display=swap');
+
+
+.navbar{
+    position:relative;
+    z-index: 2;
+    height: 85px;
+}
+
+.navbar ul img{
+    position:relative;
+    top:-12px;
+    height:90px;
+    width: 160px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+    list-style-type:none;
+    height:100%;
+}
+
+.navbar li{
+    height:110%;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.Dropdown_Menu{
+    position:relative;
+    margin-top:25px;
+}
+
+.Language{
+    margin-top: 25px;
+}
+
+.Dropdown_Content{
+    position: absolute;
+    display:none;
+    padding:18px 18px;
+}
+
+
+.Dropdown:hover .Dropdown_Content{
+    display:block;
+    top:95px;
+    background-color: #E5EBF7;
+    width:200px;
+}
+.Dropdown_Content div:hover{
+    background-color: white;
+    width:200px;
+}
+
+
+
