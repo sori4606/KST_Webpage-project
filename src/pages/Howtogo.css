@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
+
+.map_location{
+    padding-top: 100px;
+    left: 20%;
+    padding-left: 160px;
+}
+
+.vehicle{
+    height:400px;
+    width:80%;
+    border:1px solid black;
+    margin-top:50px;
+    margin-left: 10%;
+    display:flex;
+}
+
+.vehicle_sub{
+    border: 1px solid black;
+    width:40%;
+    height:100%;
+    background-color: #fff;
+}
+
+.vehicle_sub span{
+    color:red;
+    padding-left: 42%;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.vehicle_sub2{
+    margin-top: 20px;  
+    padding-left: 93px;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    width:50%;
+    margin-left:65px;
+}
+.vehicle_sub3{
+    margin-top: 20px;  
+    padding-left: 93px;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    width:50%;
+    margin-left:53px;
+}
+.vehicle_sub4{
+    margin-top: 20px;  
+    padding-left: 73px;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    width:50%;
+    margin-left:70px;
+}
+
+.car_sub{
+    font-size: 20px;
+    font-family: 'Gowun Batang', serif;   
+    padding:70px 100px;
+    width:50%;
+}
+
+.bus_sub{
+    font-size: 20px;
+    font-family: 'Gowun Batang', serif;   
+    padding:50px 85px;
+    width:60%;
+    white-space: pre-line;
+}
+
+
+.parking_sub{
+    font-size: 20px;
+    font-family: 'Gowun Batang', serif;   
+    padding:70px 115px;
+    width:50%;
+}

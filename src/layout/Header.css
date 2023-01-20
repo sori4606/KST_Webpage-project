@@ -49,6 +49,9 @@ a{
     padding:18px 18px;
 }
 
+.Dropdown_Content div{
+    
+}
 
 .Dropdown:hover .Dropdown_Content{
     display:block;
@@ -58,7 +61,7 @@ a{
 }
 .Dropdown_Content div:hover{
     background-color: white;
-    width:200px;
+    
 }
 
 

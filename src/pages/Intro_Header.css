@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
+.AboutUs_All{
+    background-color: #fffff4;
+}
+
+.AboutUs img{
+    height:620px;
+    width:100%;
+    object-fit: cover;
+    padding-top: 9px;
+    margin-bottom: 10px;
+}
+
+.AboutUs_text1{
+    position: absolute;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 60px;
+    top: 30%;
+    left: 39%;
+    color:white;
+}
+
+.AboutUs_text2{
+    position: absolute;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size:30px;
+    top: 54%;
+    left: 25%;
+    color:white;
+}

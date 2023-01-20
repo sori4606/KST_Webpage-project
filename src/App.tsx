@@ -5,14 +5,17 @@ import CEO from './pages/CEO';
 import Contact from './pages/Contact';
 import Customer from './pages/Customer';
 import Howtogo from './pages/Howtogo';
-import Material from './pages/Material';
 import Product from './pages/Product';
 import Technology from './pages/Technology';
+import Company_History from './pages/Company_History';
 import {Route, Routes} from 'react-router-dom'
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 
 function App() {
   return (
     <div>
+      <Header />
       <Routes>
         <Route path = "/" element={<Layout />} />
         <Route path = "AboutUs" element={<AboutUs />} />
@@ -20,11 +23,12 @@ function App() {
         <Route path = "Contact" element={<Contact />} />
         <Route path = "Customer" element={<Customer />} />
         <Route path = "Howtogo" element={<Howtogo />} />
-        <Route path = "Material" element={<Material />} />
         <Route path = "Product" element={<Product />} />
         <Route path = "Technology" element={<Technology />} />
+        <Route path = "Company_History" element={<Company_History />} />
 
       </Routes>
+      <Footer />
 
     </div>
   );

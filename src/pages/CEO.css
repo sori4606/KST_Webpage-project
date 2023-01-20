@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Gowun+Batang&family=Hahmlet&family=Noto+Sans+KR:wght@400;900&display=swap');
+
+
+.CEO_Message{
+    position:relative;
+    font-size: 80px;
+    top:70%;
+}
+
+.KST_back{
+    position: absolute;
+    font-size: 250px;
+    left:70%;
+    font-family: 'Explora', cursive;
+    font-weight:100;
+}
+
+.CEO_Message_sub{
+    position:absolute;
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;    
+    color:#6f917b;
+    top:50%;
+}
+
+.company_building{
+    position: relative;
+    height:538px;
+    object-fit: cover;
+    margin-top: 300px;
+    margin-left:100px;
+    background-color: #fffff4;
+}
+.company_building img{
+    margin-right:10px;
+}
+.CEO_talk{
+    position:absolute;
+    left:28%;
+    top:4%;
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Gowun Batang', serif;
+    margin-right: 200px;
+}

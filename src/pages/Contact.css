@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Gowun+Batang&family=Hahmlet&family=Noto+Sans+KR:wght@400;900&family=Open+Sans:ital,wght@1,300&display=swap');
+
+.Contact_img1{
+    height:600px;    
+    width:80%;
+    object-fit: fill;
+    padding-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 304px;
+    padding-top: 100px;
+}
+
+.Contact_text{
+    position: absolute;
+    font-size: 200px;
+    left:8%;
+    padding-top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 10px;
+}
+
+.Contact_Sub1{
+    position: relative;
+    font-size: 55px;
+    font-family:'Noto Sans KR', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.Inquiry{
+    position: relative;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    color:#6f917b;
+    margin-left: 50px;
+}
+
+.Contact_text2{
+    font-size: 40px;
+    padding-top: 300px;
+    padding-left: 100px;
+    font-family:'Noto Sans KR', sans-serif;
+    
+}
+
+.Contact_text3{
+    padding-top: 30px;
+    padding-left: 100px;
+    font-family: 'Gowun Batang', serif;
+    
+}
+
+.Contact_img2{
+    width:100%;
+    object-fit: contain;
+    padding-top: 8px;
+    height:650px;
+    margin:120px 0 30px -25%;
+}
+
+.Contact_text4{
+    margin-top: -650px;
+    margin-left: 700px;
+    width:50%;
+    height:620px;
+}
+
+.Contact_text4 img{
+    object-fit: fill;
+    width:50%;
+    height:300px;
+    padding-left: 10px;
+}
+
+.Contact_text4_sub1 span{
+    display:inline-block;
+    top:-128px;
+    position: relative;
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: 'Gowun Batang', serif;
+    width:40%;
+}
+
+.Contact_text4_sub2 span{
+    position: relative;
+    top:-110px;
+    width:30%;
+    font-family: 'Gowun Batang', serif;
+    width:40%;
+    display:inline-block;
+    padding-left:40px;
+    font-size:23px;
+}

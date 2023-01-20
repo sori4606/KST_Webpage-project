@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
+
+.Product img{
+    height:720px;
+    width:100%;
+    object-fit: fill;
+    padding-top: 9px;
+    margin-bottom: 10px;
+}
+
+.Product_Sub1{
+    position: relative;
+    font-size: 55px;
+    font-family:'Noto Sans KR', sans-serif;
+    margin-bottom: 10px;
+}
+
+.introduce{
+    position: relative;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    color:#6f917b;
+    margin-left: 20px;
+}
+
+
+.Product1 img{
+    object-fit: cover;
+    width:303.112px;
+    height: 217.212px;
+    display:flex;
+}
+
+.Product1 ul{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.Product1 li{
+    margin:110px 0px 0px 80px;
+    list-style-type: none;
+    font-style: italic;
+    font-size: 20px;
+}

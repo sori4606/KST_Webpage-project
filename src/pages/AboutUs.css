@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
+
+.AboutUs_Sub1{
+    position: relative;
+    font-size: 55px;
+    font-family:'Noto Sans KR', sans-serif;
+    margin-bottom: 10px;
+}
+
+.introduce{
+    position: relative;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    color:#6f917b;
+}
+
+
+.board_text1{
+    position: relative;
+    font-size: 40px;
+    color:black;
+    font-family: 'Gowun Batang', serif;
+    margin-top: 5%;
+    padding-left: 10%;
+}
+.board_text2{
+    position: relative;
+    font-size:21px;
+    font-family: 'Gowun Batang', serif;
+    padding-left: 10%;
+}
+
+.board_img{
+    width:80%;
+    object-fit: cover;
+    padding-top: 8px;
+    height:620px;
+    margin:120px 0 30px 10%;
+}
+
+.board_text1 div{
+    border-bottom: 2px;
+}
+
+
+
+.Company_information dt{
+    font-size:18px;
+    font-family: 'Gowun Batang', serif;
+}
+.Company_information span{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.Company_information dd{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: -1px;
+}
+.Company_information dl{
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    width:25%;
+    height:240px;
+    padding:30px 4%;
+    text-align: center;
+    margin:0px;
+    margin-top:8px;
+
+}
+.Company_information{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-bottom: 150px;
+}
