@@ -37,8 +37,8 @@ const Header = () => {
          </li>
 
          <li className = 'Language'>
-           <a href = 'Korean'>Korean    |</a>
-           <a href = 'English'>   English</a>
+           <Link to = '/'>Home    |</Link>
+           <Link to = 'Contact'>   Contact</Link>
          </li>
       </ul>
     </nav>
