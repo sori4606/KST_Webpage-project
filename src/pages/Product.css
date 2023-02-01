@@ -38,8 +38,17 @@
 }
 
 .Product1 li{
-    margin:110px 0px 0px 80px;
+    margin:110px 80px 0px 80px;
     list-style-type: none;
     font-style: italic;
     font-size: 20px;
+}
+
+.start{
+    opacity: 0;
+}
+
+.end{
+    opacity: 1;
+    transition: opacity 2s;
 }

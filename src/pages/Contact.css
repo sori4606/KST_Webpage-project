@@ -93,3 +93,11 @@
     padding-left:40px;
     font-size:23px;
 }
+.start{
+    opacity: 0;
+}
+
+.end{
+    opacity: 1;
+    transition: opacity 2s;
+}

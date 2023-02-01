@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Contact.css';
 
 const Contact = () => {
+  let [fade, setFade] = useState('');
+
+  useEffect(() => {
+    setFade('end')
+    return () => {
+      setFade('');
+    }
+  },[])
+
   return (
     <div
       className="Contact"
@@ -12,7 +21,7 @@ const Contact = () => {
         Contact
       </div>
       <div>
-        <img className='Contact_img1' src="./img/telephone.jpg" alt="Contact_image" />
+        <img className={'Contact_img1 start ' + fade} src="./img/telephone.jpg" alt="Contact_image" />
       </div>
 
       <div className="Contact_Sub1">Inquiry</div>

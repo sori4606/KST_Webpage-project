@@ -1,5 +1,4 @@
-
-import React, { ReactNode } from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 import "./layout.css";
 import { Link } from "react-router-dom";
 
@@ -7,14 +6,15 @@ interface Props {
   children?: ReactNode;
 }
 
-const layout = ({ children }: Props) => {
+const layout:React.FC<Props> = ({ children }: Props) => {
+  
   return (
     <div className="layout">
       
       <>
         <main className="main">
           <article className="section1">
-            <div>
+            <div className="section1_1">
               <img src="./img/main_page.jpg" alt="main_img" />
             </div>
             <div className="motto">
