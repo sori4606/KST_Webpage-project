@@ -1,5 +1,5 @@
-import React from 'react';
-import Layout from './layout/layout';
+import React, { useEffect } from 'react';
+import Layout from './layout/Layout';
 import AboutUs from './pages/AboutUs';
 import CEO from './pages/CEO';
 import Contact from './pages/Contact';
@@ -8,11 +8,24 @@ import Howtogo from './pages/Howtogo';
 import Product from './pages/Product';
 import Technology from './pages/Technology';
 import Company_History from './pages/Company_History';
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes, useLocation} from 'react-router-dom'
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 
+
+let currentPath = "";
+
 function App() {
+  
+  let location = useLocation();
+
+  useEffect(() => {
+    if(currentPath === location.pathname) window.location.reload();
+     
+    currentPath = location.pathname;
+  }, [location]);
+  
+  
   return (
     <div>
       <Header />

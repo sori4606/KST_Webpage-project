@@ -1,64 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Gowun+Batang&family=Hahmlet&family=Noto+Sans+KR:wght@400;900&display=swap');
 
-
+div {
+    box-sizing : border-box;
+  }
+  body {
+    margin : 0;
+  }
+  html {
+    line-height : 1.15; /*기본 행간 높이*/
+    font-size: 62.5%;
+  }
 
 .layout{
     position: relative; /*요소 자기 자신을 기준으로 배치 */
-    min-height: 100%;
+    height:322.5rem;
     z-index: 1;
-
+    
 }
 
 .main{
     width:100%;
-    margin:10px auto;
+    margin:1rem auto;
     position:relative;
 
 }
 .main img{
     width:100%;
-    height:700px;
-    object-fit: cover;
-    vertical-align: center;
+    height:70rem;
+    object-fit: fill;
 }
 
 
 .motto{
-    position:absolute;
-    top:18%;
-    left:25%;
-    font-size:52px;
+    position:relative;
+    top:-50rem;
+    font-size:5.2rem;
     text-align: center;
     color: #fff;
     line-height: 1;
-    text-shadow: 0 3px 2px rgb(0 0 0 / 70%);
+    text-shadow: 0 0.3rem 0.2rem rgb(0 0 0 / 70%);
 }
 
 .section2{
-    height:470px;
+    height:50rem;
 }
 
 .section2 h2{
-    position: absolute;
-    font-size: 30px;
+    position: relative;
+    font-size: 3rem;
     font-family:'Noto Sans KR', sans-serif;
-    left:40px;
+    padding-left: 4rem;
 }
 
 
 .section2 h3{
-    position:absolute;
-    font-size: 45px;
+    position:relative;
+    font-size: 4.5rem;
     font-family:'Noto Sans KR', sans-serif;
-    top:65%;
-    left:40px;
+    padding-left: 4rem;
 }
 
 .section2 p{
-    position:absolute;
+    position:relative;
     font-family: 'Gowun Batang', serif;
-    top:77%;
-    left:50px;
+    padding-left: 4rem;
+    font-size:1.6rem;
 }
 
 .view_more{
@@ -66,16 +72,16 @@
 }
 
 .section2 a{
-    position:absolute;
+    position:relative;
     display:block;
     box-sizing: border-box;
-    width:200px;
+    width:20rem;
     border:1px solid #006994;
-    height:66px;
+    height:6.6rem;
     text-align: center;
-    padding-top: 16px;
-    left:40px;
-    top:85%;
+    padding-top: 1.6rem;
+    margin-left: 4rem;
+    top:10rem;
 }
 
 .section2 a:hover{
@@ -85,11 +91,167 @@
     color:white;
 }
 
-.start{
-    opacity: 0;
+.section3 img{
+    object-fit: fill;
+    margin-top:-15rem;
+    height:60rem;
+    width:80%;
+    margin-left: 10%;
 }
 
-.end{
-    opacity: 1;
-    transition: opacity 2s;
+.section3Title{
+    font-size: 15rem;
+    font-family: 'Gowun Batang', serif;
+    padding-top:0.5em;
+    position:relative;
+    z-index:2;
+    padding-left: 0.5em;
+    color:white;
+}
+
+.section3Content{
+    width:30%;
+    top:30rem;
+    position: relative;
+    padding-left: 4rem;
+    color:white;
+    font-size: 2rem;
+    font-family: 'Gowun Batang', serif;
+
+}
+
+.startLayoutWidth{
+    width:50%;
+    opacity:1;
+}
+.endLayoutWidth{
+    transform: scale(1.2);
+    overflow:hidden;
+    transition: all 1s;
+    height:48em;
+    opacity:0.4;
+    margin-left:40%;
+}
+
+.section4{
+    height:60rem;
+    background: url('/public/img/Question2.jpg');
+    background-size:cover;
+}
+
+.section4Content{
+    font-size:3rem;
+    position:relative;
+    top:25rem;
+    text-align: center;
+    color:white;
+    width:100%;
+}
+
+.section4Content2{
+    font-size: 3rem;
+    color:white;
+    font-family:'Noto Sans KR', sans-serif; 
+}
+
+.section4 a{
+    top:31rem;
+    position:relative;
+    width:20rem;
+    display:block;
+    left:43%;
+    text-align:center;
+    border:1px solid white;
+}
+
+.section4 a:hover .section4Content2{
+    background-color:white;
+    color:black;
+}
+
+
+
+@media screen and (max-width:767px){
+    .layout{
+        height:312.5rem;
+    }
+
+    .motto{
+        top:-45rem;
+        font-size:3.5rem;
+    }
+
+    .section2{
+        height:50rem;
+    }
+    
+    .section2 h2{
+        position: relative;
+        font-size: 2.5rem;
+        font-family:'Noto Sans KR', sans-serif;
+        padding-left: 4rem;
+    }
+    
+    
+    .section2 h3{
+        position:relative;
+        font-size:2.8rem;
+        font-family:'Noto Sans KR', sans-serif;
+        padding-left: 4rem;
+        width:90%;
+    }
+    
+    .section2 p{
+        font-size:1.4rem;
+    }
+    
+
+    
+    .section3Title{
+        padding-left: 1rem;
+        font-size:10rem;
+    }
+    
+    .section3Content{
+        width:70%;
+        z-index: 2;
+        color:white;
+    }
+    .section3 img{
+        width:80%;
+        margin-left: 6rem;
+    }
+
+
+    .startLayoutWidth{
+        width:80%;
+    }
+    .endLayoutWidth{
+        
+        margin-left: 10%;
+        opacity:0.3;
+        transition: all 1s;
+    }
+    
+    .section4{
+        height:50.4rem;
+    }
+
+    .section4Content{    
+        text-align: center;
+        font-size: 2.0rem;
+        
+        top:22rem;
+    }
+    
+    .section4 a{
+        top:26rem;
+        left:36%;
+        font-size: 10rem;
+        width:16.5rem;
+    }
+
+    .section4Content2{
+    font-size: 2.5rem;    
+    }
 }

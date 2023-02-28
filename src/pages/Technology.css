@@ -1,31 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@400;900&display=swap');
-
-.Technology img{
-    height:720px;
+.Technology{
+    position: relative;
+    background:#fffff4;
+    height:340rem;
+}
+.techMain img{
+    height:72rem;
     width:100%;
     object-fit: fill;
-    padding-top: 9px;
-    margin-bottom: 10px;
+    padding-top: 0.9rem;
+    margin-bottom: 1rem;
+    position: relative;
 }
 
 .Technology_Sub1{
     position: relative;
-    font-size: 55px;
+    font-size: 5.5rem;
     font-family:'Noto Sans KR', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .introduce{
     position: relative;
     font-family:'Noto Sans KR', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     color:#6f917b;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
-.Technology img{
-    object-fit: cover;
-    width:25%;
-    height:25%;
-    color:#fffff4;
+.Technology1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5%;
+    height:110rem;
+}
+
+.Tech{
+    border-radius: 50%;
+    background-color:rgba(108,202,205,0.6);
+    height:40rem;
+    width:90%;
+    float:left;
+    margin:4rem 2.3rem;
+}
+
+.Tech ul{
+    font-size: 3rem;
+    padding-top: 28%;
+    text-align: center;
+    width:60%;
+    padding-left: 20%;
+    font-family:'Noto Sans KR', sans-serif;    
+}
+
+.Tech li{
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.Technology2Title{
+    font-size:4rem;
+    padding-top: 20rem;
+    padding-left: 5rem;
+    font-family:'Noto Sans KR', sans-serif;    
+}
+
+.Technology2{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tech2{
+    width:600px;
+}
+
+.Technology2 img{
+    width:55rem;
+    height:40rem;
+    padding-left: 11%;
+    object-fit: fill;
+    padding-top: 5rem;
+}
+
+.Tech2Sub2{
+    position: absolute;
+    margin-top:40rem;
+    padding-left: 10rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    width:61.6rem;
+    z-index:3;
+}
+.Tech2Sub3{
+    position: absolute;
+    margin-top: -7rem;
+    color: white;
+    margin-left: 74rem;
+}
+
+
+@media screen and (max-width:1200px){
+    .Tech2{
+        width:50rem;
+    }
+    
+    .Technology2 img{
+        width:90%;
+        height:40rem;
+        object-fit: cover;
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+    }
+
+
+    .Tech2Sub2{
+        font-size: 2.8rem;
+        width:50.5rem;
+    }
+
+}
+@media screen and (max-width:1023px){
+    .Technology2 img{
+        margin-left: -1rem;
+    }
+}
+@media screen and (max-width:999px){
+    .Technology{
+        height:420rem;
+    }
+
+    .Technology2 img{
+        width:100%;
+        height:40rem;
+        object-fit: cover;
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .Tech2{
+        width:70%;
+    }
+
+    .Tech2Sub2{
+        width:77.5rem;
+        font-size: 3.5rem;
+        margin-left: -8rem;
+       
+    }
+    .Tech3{
+        width: 70%;
+    }
+}
+@media screen and (max-width:767px){
+    .Technology{
+        height:470rem;
+    }
+    
+    .Technology1{
+        grid-template-columns: 1fr 1fr;
+        gap:0%;
+    }
+    
+    .Tech{
+        border-radius: 20%;
+        margin:4rem 1.3rem;
+    }
+    
+    
+    .Tech ul{
+        font-size: 2.5rem;
+        padding-top: 28%;
+        text-align: center;
+        width:80%;
+        padding-left: 10%;
+        font-family:'Noto Sans KR', sans-serif;    
+    }
+    
+    .Tech li{
+        list-style-type: none;
+        font-size: 1.8rem;
+        font-weight: 100;
+        padding-top:5rem;
+    }
+    
+    
+    .Technology2Title{
+        margin-top: 40rem;
+    }
+
+    .Tech2Sub2{
+        width:55rem;
+        font-size: 2.3rem;
+    }
 }

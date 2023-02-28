@@ -4,36 +4,46 @@
 }
 
 .AboutUs img{
-    height:620px;
+    height:67rem;
     width:100%;
     object-fit: cover;
-    padding-top: 9px;
-    margin-bottom: 10px;
+    padding-top: 0.9rem;
+    margin-bottom: 1rem;
 }
 
 .AboutUs_text1{
     position: absolute;
     font-family:'Noto Sans KR', sans-serif;
-    font-size: 60px;
-    top: 30%;
-    left: 39%;
+    font-size: 6rem;
+    top: 37%;
+    text-align: center;
     color:white;
+    width:100%;
 }
 
 .AboutUs_text2{
     position: absolute;
     font-family:'Noto Sans KR', sans-serif;
-    font-size:30px;
+    font-size:3rem;
     top: 54%;
-    left: 25%;
     color:white;
+    text-align: center;
+    width:100%;
 }
 
-.start{
-    opacity: 0;
-}
+@media screen and (max-width:767px){
 
-.end{
-    opacity: 1;
-    transition: opacity 2s;
+    .AboutUs_text1{
+        font-size: 5rem;
+        
+        top:37%;
+        
+    }
+
+    .AboutUs_text2{
+        font-size:1.8rem;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+        }
 }

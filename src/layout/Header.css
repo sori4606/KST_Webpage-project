@@ -1,23 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;900&display=swap');
 
 
+.browserToggle{
+    display:none;
+}
+
+.navbarMobile{
+    display:none;
+}
+
 .navbar{
     position:relative;
     z-index: 2;
-    height: 85px;
+    height: 8.5rem;
 }
 
 .navbar ul img{
     position:relative;
-    top:-12px;
-    height:90px;
-    width: 160px;
+    top:-1.2rem;
+    height:9rem;
+    width: 16rem;
 }
 
 .navbar ul{
     display:flex;
     justify-content: space-between;
-    padding: 8px 30px;
+    padding: 0.8em 3em;
     list-style-type:none;
     height:100%;
 }
@@ -29,40 +37,108 @@
 a{
     text-decoration: none;
     color:blue;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
 
 .Dropdown_Menu{
     position:relative;
-    margin-top:25px;
+    margin-top:2.5rem;
+    padding:0.8rem 1.2rem;
 }
 
 .Language{
-    margin-top: 25px;
+    margin-top: 2.5rem;
 }
 
 .Dropdown_Content{
     position: absolute;
     display:none;
-    padding:18px 18px;
+    padding:1.8rem 1.8rem;
 }
 
-.Dropdown_Content div{
-    
+.Dropdown_Content a{
+    width:20rem;
+    display:inline-block;
+    padding:0.3rem;
 }
 
 .Dropdown:hover .Dropdown_Content{
     display:block;
-    top:95px;
+    top:9.5rem;
     background-color: #E5EBF7;
-    width:200px;
+    width:20rem;
 }
 .Dropdown_Content div:hover{
     background-color: white;
-    
 }
 
 
+.Dropdown_ContentMobile{
+    display:none;
+    height:0;
+}
 
+.Dropdown_ContentMobile--open{
+    display:block;
+    height:auto;
+    width:100%;
+}
+
+.Dropdown_ContentMobile--open div{
+    padding:2rem 2rem;
+    color:#ffffff;
+}
+
+.Dropdown_ContentMobile--open a{
+    display:block;
+    width:100%;
+}
+
+
+.Dropdown_MenuMobile{
+    position:relative;
+    width:100%;
+    display:block;
+    height:auto;
+    font-size:2rem;
+    padding:1rem;
+    margin:1rem;    
+}
+
+.navbarMobile{
+    flex-direction: column;
+}
+
+.navbarMobile ul{
+    background-color: #4b9ae4;
+    position:absolute;
+    z-index:3;
+    right:0;
+    top: 0;
+    width: 50rem;
+    max-width: 80%;
+    height: 90rem;
+}
+
+
+@media screen and (max-width:767px){
+    .Dropdown{
+        display:none;
+    }
+    .Language{
+        display:none;
+    }
+    
+    .browserToggle{
+        display:block;
+    }
+    .navbarMobile{
+        display:block;
+    }
+    .Dropdown_MenuMobile{
+        margin-top: 4rem;
+    }
+
+}

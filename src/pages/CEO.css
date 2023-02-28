@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Explora&family=Gowun+Batang&family=Hahmlet&family=Noto+Sans+KR:wght@400;900&display=swap');
 
-
 .CEO_Message{
     position:relative;
-    font-size: 80px;
-    top:70%;
+    font-size: 8rem;
+    top:2%;
 }
 
 .KST_back{
     position: absolute;
-    font-size: 250px;
+    font-size: 25rem;
     left:70%;
     font-family: 'Explora', cursive;
     font-weight:100;
@@ -18,28 +17,81 @@
 .CEO_Message_sub{
     position:absolute;
     font-family: 'Gowun Batang', serif;
-    font-size: 30px;    
+    font-size: 3rem;    
     color:#6f917b;
-    top:50%;
+    top:45%;
 }
 
 .company_building{
     position: relative;
-    height:538px;
+    height:75rem;
     object-fit: cover;
-    margin-top: 300px;
-    margin-left:100px;
     background-color: #fffff4;
+    margin:30rem 5rem 0rem 10rem;
 }
-.company_building img{
-    margin-right:10px;
-}
+
 .CEO_talk{
     position:absolute;
-    left:28%;
     top:4%;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 2;
     font-family: 'Gowun Batang', serif;
-    margin-right: 200px;
+    margin-right: 20rem;
+    width:80%;
+}
+
+@media screen and (max-width:1200px){
+    .CEO_All{
+        height:200rem;
+        
+    }
+    .KST_back{
+        left:60%;
+    }
+    
+    .CEO_Message_sub{
+        font-size: 2.7rem;
+    }
+    
+    .CEO_talk{
+        font-size: 2rem;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .CEO_All{
+        height:180rem;
+    }
+    .CEO_Message{
+        font-size: 6rem;
+    }
+    
+    .KST_back{
+        font-size: 20rem;
+        left:60%;
+    }
+    
+    .CEO_Message_sub{
+        font-size: 2.7rem;
+    }
+    
+    .CEO_talk{
+        font-size: 1.4rem;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .CEO_All{
+        height:180rem;
+    }
+    .KST_back{
+        font-size: 20rem;
+        left:50%;
+    }
+    .CEO_talk{
+        font-size: 1.2rem;
+        width:100%;
+    }
 }

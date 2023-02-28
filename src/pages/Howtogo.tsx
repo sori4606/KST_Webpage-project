@@ -6,7 +6,7 @@ import Intro_Header from "./Intro_Header";
 const Howtogo = () => {
   const str = "간선버스 : 30-5, 30, 3412, 3413, 3414\n *올림픽공원 남2문 앞 하차\n 지하철 : 9호선 한성백제역 4번출구에서 280미터"
   return (
-    <div className="Howtogo" style={{background:'#fffff4' , width:'100%', height:'2200px'}}>
+    <div className="Howtogo">
       <Intro_Header />
       <div className='AboutUs_Sub1'>
         Contact us

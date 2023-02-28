@@ -1,103 +1,287 @@
 @import url('https://fonts.googleapis.com/css2?family=Explora&family=Gowun+Batang&family=Hahmlet&family=Noto+Sans+KR:wght@400;900&family=Open+Sans:ital,wght@1,300&display=swap');
 
+.Contact{
+    position:relative;
+    height:250rem;
+}
+
 .Contact_img1{
-    height:600px;    
-    width:80%;
+    height:72rem;
+    width:100%;
     object-fit: fill;
-    padding-top: 9px;
-    margin-bottom: 10px;
-    margin-left: 304px;
-    padding-top: 100px;
+    padding-top: 0.9rem;
+    margin-bottom: 1rem;
 }
 
 .Contact_text{
-    position: absolute;
-    font-size: 200px;
-    left:8%;
-    padding-top: 250px;
+    position: relative;
+    font-size: 20rem;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 1rem;
+    top: -50rem;
+    z-index:3;
+    text-align: center;
+    width:100%;
+    padding-right: 30rem;
+    
 }
 
 .Contact_Sub1{
     position: relative;
-    font-size: 55px;
+    font-size: 5.5rem;
     font-family:'Noto Sans KR', sans-serif;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
 }
 
 .Inquiry{
     position: relative;
     font-family:'Noto Sans KR', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     color:#6f917b;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
 .Contact_text2{
-    font-size: 40px;
-    padding-top: 300px;
-    padding-left: 100px;
+    font-size: 4rem;
+    margin-top: 10rem;
+    padding-left: 10rem;
     font-family:'Noto Sans KR', sans-serif;
     
 }
 
 .Contact_text3{
-    padding-top: 30px;
-    padding-left: 100px;
+    padding-top: 3rem;
+    padding-left: 10rem;
     font-family: 'Gowun Batang', serif;
-    
+    font-size: 1.6rem;
 }
 
 .Contact_img2{
-    width:100%;
+    width:74rem;
     object-fit: contain;
-    padding-top: 8px;
-    height:650px;
-    margin:120px 0 30px -25%;
+    padding-top: 0.8rem;
+    height:55rem;
+    margin:12rem 0rem 3rem 0rem;
 }
 
 .Contact_text4{
-    margin-top: -680px;
-    margin-left: 700px;
-    width:50%;
-    height:620px;
+    display: flex;
 }
 
 .Contact_text4 img{
     object-fit: fill;
-    width:50%;
-    height:300px;
-    padding-left: 10px;
+    width:30rem;
+    height:10rem;
+    padding-left: 15rem;
+    padding-top: 5rem;
 }
-
-.Contact_text4_sub1 span{
-    display:inline-block;
-    top:-128px;
+.Contact_text4_sub1{
+    border:1px solid black;
+    background:white;
+    width:60rem;
     position: relative;
-    font-size: 30px;
-    padding-left: 40px;
-    font-family: 'Gowun Batang', serif;
-    width:40%;
+    left:12rem;
+    margin-right: 14rem;
+    height:32rem;
 }
 
-.Contact_text4_sub2 span{
+.Contact_text4_sub2{
+    border:1px solid black;
+    background:white;
+    width:60rem;
     position: relative;
-    top:-110px;
-    width:30%;
-    font-family: 'Gowun Batang', serif;
-    width:40%;
-    display:inline-block;
-    padding-left:40px;
-    font-size:23px;
-}
-.start{
-    opacity: 0;
+    height:32rem;
 }
 
-.end{
-    opacity: 1;
-    transition: opacity 2s;
+.Contact_text4_sub1_sub{
+    position: relative;
+    font-size: 2.7rem;
+    font-family: 'Gowun Batang', serif;
+    text-align: center;
 }
+
+.Contact_text4_sub2_sub{
+    position: relative;
+    font-family: 'Gowun Batang', serif;
+    display:inline-block;
+    font-size:2.0rem;
+    text-align: center;
+}
+
+.Contact_text4 h2{
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:1200px){
+    .Contact_text4_sub1{
+        border:1px solid black;
+        background:white;
+        width:43rem;
+        position: relative;
+        left:12rem;
+        margin-right: 14rem;
+        height:32rem;
+        
+    }
+    
+    .Contact_text4_sub2{
+        border:1px solid black;
+        background:white;
+        width:43rem;
+        position: relative;
+        height:32rem;
+        
+    }
+
+    .Contact_text4 img{
+        width:20rem;
+        padding-left: 12rem;
+    }
+
+    .Contact_text4 h2{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:992px){
+    .Contact{
+        height:270rem;
+    }
+
+    .Contact_text2{
+        font-size: 2.8rem; 
+    }
+
+    .Contact_text3{
+        font-size:1.4rem;
+    }
+
+    .Contact_text4{
+        flex-direction: column;
+    }
+    
+
+    .Contact_text4_sub1{
+        margin-bottom: 40px;
+        margin-left:-3rem;
+        width:68rem;
+    }
+    
+    .Contact_text4_sub2{
+        left:9rem;
+        width:68rem;
+    }
+    
+
+    .Contact_text4 img{
+        padding-left: 24rem;
+    }
+
+    .Contact_text4_sub1_sub{
+        position: relative;
+        font-size: 3rem;
+        font-family: 'Gowun Batang', serif;
+        text-align: center;
+    }
+    
+    .Contact_text4_sub2_sub{
+        position: relative;
+        font-family: 'Gowun Batang', serif;
+        display:inline-block;
+        font-size:2.3rem;
+        text-align: center;
+    }
+    
+    .Contact_text4 h2{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:767px){
+    .Contact{
+        height:270rem;
+    }
+    .Contact_img1{
+        object-fit: cover;
+    }
+    
+    .Contact_text{
+        font-size: 12rem;
+    }
+    
+    .Contact_Sub1{
+        position: relative;
+        font-size: 5.5rem;
+        font-family:'Noto Sans KR', sans-serif;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    
+    .Inquiry{
+        position: relative;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 3rem;
+        color:#6f917b;
+        margin-left: 5rem;
+    }
+    
+    .Contact_text2{
+        font-size: 2.2rem;
+        padding-left: 3rem;
+    }
+
+    .Contact_text3{
+        font-size:1.2rem;
+        padding-left: 3rem;
+    }
+
+    .Contact_img2{
+        width:70vw;
+        margin:12rem 0rem 3rem 8rem;
+    }
+
+    .Contact_text4{
+        flex-direction: column;
+    }
+    
+    .Contact_text4_sub1{
+        margin-bottom: 4rem;
+        margin-left:-5rem;
+        width:80%;
+        height: 28rem;
+    }
+    
+    .Contact_text4_sub2{
+        left:9rem;
+        width:80%;
+        height: 30rem;
+        margin-left: -2rem;
+    }
+    
+    .Contact_text4 img{
+        padding-left: 31%;
+        width:40%;
+    }
+
+    .Contact_text4_sub1_sub{
+        position: relative;
+        font-size: 2.3rem;
+        font-family: 'Gowun Batang', serif;
+        text-align: center;
+    }
+    
+    .Contact_text4_sub2_sub{
+        position: relative;
+        font-family: 'Gowun Batang', serif;
+        display:inline-block;
+        font-size:2.1rem;
+        text-align: center;
+    }
+    
+    .Contact_text4 h2{
+        font-size: 3rem;
+    }
+}
+
