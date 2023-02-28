@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KST_Webpage-project/static/css/main.05f7b29b.css",
+    "main.js": "/KST_Webpage-project/static/js/main.e6a1c2ca.js",
+    "static/media/Question2.jpg": "/KST_Webpage-project/static/media/Question2.4e7b9e34bb858c36a8af.jpg",
+    "index.html": "/KST_Webpage-project/index.html",
+    "main.05f7b29b.css.map": "/KST_Webpage-project/static/css/main.05f7b29b.css.map",
+    "main.e6a1c2ca.js.map": "/KST_Webpage-project/static/js/main.e6a1c2ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05f7b29b.css",
+    "static/js/main.e6a1c2ca.js"
+  ]
+}
